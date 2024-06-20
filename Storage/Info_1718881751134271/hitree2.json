@@ -1,0 +1,109 @@
+{
+  "name": "RVO",
+  "payload": {
+    "name": "RVO",
+    "type": "GameObject",
+    "visible": true,
+    "pos": [
+      0.0,
+      0.0
+    ],
+    "size": [
+      0.0,
+      0.0
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "anchorPoint": [
+      0.5,
+      0.5
+    ],
+    "zOrders": {
+      "global": 0.0,
+      "local": -36.29117
+    },
+    "clickable": false,
+    "components": [
+      "Transform",
+      "RVOSimulator",
+      "RayfireMan"
+    ],
+    "_ilayer": 0,
+    "layer": "Default",
+    "_instanceId": -3672
+  },
+  "children": [
+    {
+      "name": "Pool_Fragments",
+      "payload": {
+        "name": "Pool_Fragments",
+        "type": "GameObject",
+        "visible": true,
+        "pos": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -36.29117
+        },
+        "clickable": false,
+        "components": [
+          "Transform"
+        ],
+        "_ilayer": 0,
+        "layer": "Default",
+        "_instanceId": -5214
+      }
+    },
+    {
+      "name": "Pool_Particles",
+      "payload": {
+        "name": "Pool_Particles",
+        "type": "GameObject",
+        "visible": true,
+        "pos": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -36.29117
+        },
+        "clickable": false,
+        "components": [
+          "Transform"
+        ],
+        "_ilayer": 0,
+        "layer": "Default",
+        "_instanceId": -5254
+      }
+    }
+  ]
+}

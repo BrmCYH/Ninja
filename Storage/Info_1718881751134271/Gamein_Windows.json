@@ -1,0 +1,930 @@
+{
+  "name": "Window",
+  "payload": {
+    "name": "Window",
+    "type": "Node",
+    "visible": true,
+    "pos": [
+      0.5,
+      0.5118443
+    ],
+    "size": [
+      1.0,
+      0.9763114
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "anchorPoint": [
+      0.5,
+      0.5
+    ],
+    "zOrders": {
+      "global": 0.0,
+      "local": -1.3
+    },
+    "clickable": false,
+    "components": [
+      "RectTransform",
+      "Canvas",
+      "GraphicRaycaster",
+      "CanvasGroup",
+      "UISetActiveEx"
+    ],
+    "_ilayer": 5,
+    "layer": "UI",
+    "_instanceId": -3462
+  },
+  "children": [
+    {
+      "name": "UILogin",
+      "payload": {
+        "name": "UILogin",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.0,
+          0.9763114
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasGroup",
+          "UISetActiveEx"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -5870
+      },
+      "children": [
+        {
+          "name": "UILogin(Clone)",
+          "payload": {
+            "name": "UILogin(Clone)",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              1.0,
+              0.9763114
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "LuaScriptMono",
+              "Animator"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -5878
+          },
+          "children": [
+            {
+              "name": "Timeline",
+              "payload": {
+                "name": "Timeline",
+                "type": "GameObject",
+                "visible": true,
+                "pos": [
+                  0.0,
+                  0.0
+                ],
+                "size": [
+                  0.0,
+                  0.0
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -19.2933922
+                },
+                "clickable": false,
+                "components": [
+                  "Transform",
+                  "LuaScriptMono",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 0,
+                "layer": "Default",
+                "_instanceId": -5886
+              },
+              "children": [
+                {
+                  "name": "Login_Start_Stay",
+                  "payload": {
+                    "name": "Login_Start_Stay",
+                    "type": "GameObject",
+                    "visible": true,
+                    "pos": [
+                      0.0,
+                      0.0
+                    ],
+                    "size": [
+                      0.0,
+                      0.0
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -19.2933922
+                    },
+                    "clickable": false,
+                    "components": [
+                      "Transform",
+                      "PlayableDirector",
+                      "TimelineFx"
+                    ],
+                    "_ilayer": 0,
+                    "layer": "Default",
+                    "_instanceId": -5894
+                  }
+                },
+                {
+                  "name": "Login_Start_End",
+                  "payload": {
+                    "name": "Login_Start_End",
+                    "type": "GameObject",
+                    "visible": true,
+                    "pos": [
+                      0.0,
+                      0.0
+                    ],
+                    "size": [
+                      0.0,
+                      0.0
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -19.2933922
+                    },
+                    "clickable": false,
+                    "components": [
+                      "Transform",
+                      "PlayableDirector",
+                      "TimelineFx"
+                    ],
+                    "_ilayer": 0,
+                    "layer": "Default",
+                    "_instanceId": -5902
+                  }
+                }
+              ]
+            },
+            {
+              "name": "BGBlack",
+              "payload": {
+                "name": "BGBlack",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.26666665,
+                  1.15823984
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -5910
+              }
+            },
+            {
+              "name": "BG",
+              "payload": {
+                "name": "BG",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.77866662,
+                  1.06124926
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -5920
+              },
+              "children": [
+                {
+                  "name": "Img_GradientL",
+                  "payload": {
+                    "name": "Img_GradientL",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      -0.389333248,
+                      0.472426474
+                    ],
+                    "size": [
+                      2.33333325,
+                      0.07883566
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      1.0
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -5930
+                  }
+                },
+                {
+                  "name": "Img_GradientR",
+                  "payload": {
+                    "name": "Img_GradientR",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      1.38933313,
+                      0.472426474
+                    ],
+                    "size": [
+                      2.33333325,
+                      0.07883566
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      1.0
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -5940
+                  }
+                },
+                {
+                  "name": "Img_GradientUP",
+                  "payload": {
+                    "name": "Img_GradientUP",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.5,
+                      -0.0581980757
+                    ],
+                    "size": [
+                      1.77866662,
+                      0.07883566
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      1.0
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -5950
+                  }
+                },
+                {
+                  "name": "Img_GradientDown",
+                  "payload": {
+                    "name": "Img_GradientDown",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.5,
+                      1.003051
+                    ],
+                    "size": [
+                      1.77866662,
+                      0.07883566
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      1.0
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -5960
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Logo",
+              "payload": {
+                "name": "Logo",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.19600004,
+                  0.0606807172
+                ],
+                "size": [
+                  0.35466668,
+                  0.0442692526
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -5986
+              }
+            },
+            {
+              "name": "BtnLogin",
+              "payload": {
+                "name": "BtnLogin",
+                "type": "Button",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.789872646
+                ],
+                "size": [
+                  1.0,
+                  0.262583375
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  1.0
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": true,
+                "components": [
+                  "RectTransform",
+                  "Button",
+                  "CanvasRenderer",
+                  "VirtualClickImage",
+                  "LuaScriptMono",
+                  "ButtonPressEffect_None"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -5996
+              },
+              "children": [
+                {
+                  "name": "BG",
+                  "payload": {
+                    "name": "BG",
+                    "type": "Node",
+                    "visible": true,
+                    "pos": [
+                      0.5,
+                      0.8610066
+                    ],
+                    "size": [
+                      0.13333334,
+                      0.0606428124
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "UIParticle"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -6010
+                  }
+                },
+                {
+                  "name": "Img_Start",
+                  "payload": {
+                    "name": "Img_Start",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.524,
+                      0.860521555
+                    ],
+                    "size": [
+                      0.682666659,
+                      0.0388114
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage",
+                      "UIMaterialVariant"
+                    ],
+                    "texture": "Animation_Txt_Start",
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -6086
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ClickVFX",
+              "payload": {
+                "name": "ClickVFX",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.789872646
+                ],
+                "size": [
+                  0.13333334,
+                  0.0606428124
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -6110
+              }
+            },
+            {
+              "name": "Agreement",
+              "payload": {
+                "name": "Agreement",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.466666669,
+                  0.956337154
+                ],
+                "size": [
+                  0.7534666,
+                  0.0606428124
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "HorizontalLayoutGroup"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -6146
+              },
+              "children": [
+                {
+                  "name": "BtnAgree",
+                  "payload": {
+                    "name": "BtnAgree",
+                    "type": "Button",
+                    "visible": true,
+                    "pos": [
+                      0.184660017,
+                      0.956337154
+                    ],
+                    "size": [
+                      0.0933333337,
+                      0.04851425
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": true,
+                    "components": [
+                      "RectTransform",
+                      "LayoutElement",
+                      "CanvasRenderer",
+                      "Button",
+                      "VirtualClickImage",
+                      "LuaScriptMono",
+                      "ButtonPressEffect_Scale"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -6152
+                  },
+                  "children": [
+                    {
+                      "name": "Background",
+                      "payload": {
+                        "name": "Background",
+                        "type": "Image",
+                        "visible": true,
+                        "pos": [
+                          0.184660017,
+                          0.9478472
+                        ],
+                        "size": [
+                          0.0426666662,
+                          0.0194057
+                        ],
+                        "scale": [
+                          1.0,
+                          1.0
+                        ],
+                        "anchorPoint": [
+                          0.5,
+                          0.5
+                        ],
+                        "zOrders": {
+                          "global": 0.0,
+                          "local": -1.3
+                        },
+                        "clickable": false,
+                        "components": [
+                          "RectTransform",
+                          "CanvasRenderer",
+                          "Image",
+                          "DynamicSpriteImage"
+                        ],
+                        "_ilayer": 5,
+                        "layer": "UI",
+                        "_instanceId": -6168
+                      },
+                      "children": [
+                        {
+                          "name": "BG",
+                          "payload": {
+                            "name": "BG",
+                            "type": "Image",
+                            "visible": true,
+                            "pos": [
+                              0.184660017,
+                              0.9478472
+                            ],
+                            "size": [
+                              0.037333332,
+                              0.0169799887
+                            ],
+                            "scale": [
+                              1.0,
+                              1.0
+                            ],
+                            "anchorPoint": [
+                              0.5,
+                              0.5
+                            ],
+                            "zOrders": {
+                              "global": 0.0,
+                              "local": -1.3
+                            },
+                            "clickable": false,
+                            "components": [
+                              "RectTransform",
+                              "CanvasRenderer",
+                              "Image",
+                              "DynamicSpriteImage"
+                            ],
+                            "_ilayer": 5,
+                            "layer": "UI",
+                            "_instanceId": -6178
+                          }
+                        },
+                        {
+                          "name": "Checkmark",
+                          "payload": {
+                            "name": "Checkmark",
+                            "type": "Image",
+                            "visible": true,
+                            "pos": [
+                              0.192660019,
+                              0.94724077
+                            ],
+                            "size": [
+                              0.06,
+                              0.0206185561
+                            ],
+                            "scale": [
+                              1.0,
+                              1.0
+                            ],
+                            "anchorPoint": [
+                              0.5,
+                              0.5
+                            ],
+                            "zOrders": {
+                              "global": 0.0,
+                              "local": -1.3
+                            },
+                            "clickable": false,
+                            "components": [
+                              "RectTransform",
+                              "CanvasRenderer",
+                              "Image",
+                              "DynamicSpriteImage"
+                            ],
+                            "_ilayer": 5,
+                            "layer": "UI",
+                            "_instanceId": -6188
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Txt",
+                  "payload": {
+                    "name": "Txt",
+                    "type": "TMPROUGUI",
+                    "visible": true,
+                    "pos": [
+                      0.519333363,
+                      0.956337154
+                    ],
+                    "size": [
+                      0.552013338,
+                      0.03214069
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "text": "我已阅读并同意《隐私协议》和《用户服务协议》。",
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "TextMeshProUGUI",
+                      "LuaScriptMono",
+                      "UITMPTextLink"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -6198
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Txt_Version",
+              "payload": {
+                "name": "Txt_Version",
+                "type": "TMPROUGUI",
+                "visible": true,
+                "pos": [
+                  0.238153338,
+                  0.9824136
+                ],
+                "size": [
+                  0.422973335,
+                  0.0154821109
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.0,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "text": "AppVersion:0.7.0 ResVersion:0.7.0-2486",
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "TextMeshProUGUI",
+                  "ContentSizeFitter"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -6210
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

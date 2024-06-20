@@ -1,0 +1,3793 @@
+{
+  "name": "UINinjaDialogueView(Clone)",
+  "payload": {
+    "name": "UINinjaDialogueView(Clone)",
+    "type": "Node",
+    "visible": true,
+    "pos": [
+      0.5,
+      0.5118443
+    ],
+    "size": [
+      1.0,
+      0.9763114
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "anchorPoint": [
+      0.5,
+      0.5
+    ],
+    "zOrders": {
+      "global": 0.0,
+      "local": -1.3
+    },
+    "clickable": false,
+    "components": [
+      "RectTransform",
+      "LuaScriptMono",
+      "Animator",
+      "LuaScriptMono",
+      "LuaScriptMono",
+      "SignalReceiver"
+    ],
+    "_ilayer": 5,
+    "layer": "UI",
+    "_instanceId": -13404
+  },
+  "children": [
+    {
+      "name": "DTimeline",
+      "payload": {
+        "name": "DTimeline",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13418
+      },
+      "children": [
+        {
+          "name": "DialogueOpen",
+          "payload": {
+            "name": "DialogueOpen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13426
+          }
+        },
+        {
+          "name": "DialogueEnd",
+          "payload": {
+            "name": "DialogueEnd",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13434
+          }
+        },
+        {
+          "name": "DislogueShake",
+          "payload": {
+            "name": "DislogueShake",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13442
+          }
+        }
+      ]
+    },
+    {
+      "name": "__BlackAnimBinder",
+      "payload": {
+        "name": "__BlackAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13450
+      },
+      "children": [
+        {
+          "name": "BlackScreenOpen",
+          "payload": {
+            "name": "BlackScreenOpen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13462
+          }
+        },
+        {
+          "name": "BlackScreenEnd",
+          "payload": {
+            "name": "BlackScreenEnd",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13470
+          }
+        }
+      ]
+    },
+    {
+      "name": "__CenterOptionAnimBinder",
+      "payload": {
+        "name": "__CenterOptionAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13478
+      },
+      "children": [
+        {
+          "name": "OptionCenterOpen",
+          "payload": {
+            "name": "OptionCenterOpen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13486
+          }
+        },
+        {
+          "name": "OptionCenterStay",
+          "payload": {
+            "name": "OptionCenterStay",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13494
+          }
+        },
+        {
+          "name": "OptionCenterEnd",
+          "payload": {
+            "name": "OptionCenterEnd",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13502
+          }
+        }
+      ]
+    },
+    {
+      "name": "__LongOptionAnimBinder",
+      "payload": {
+        "name": "__LongOptionAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13510
+      },
+      "children": [
+        {
+          "name": "OptionLongOpen",
+          "payload": {
+            "name": "OptionLongOpen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13518
+          }
+        },
+        {
+          "name": "OptionLongEnd",
+          "payload": {
+            "name": "OptionLongEnd",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13526
+          }
+        }
+      ]
+    },
+    {
+      "name": "__BGAnimBinder",
+      "payload": {
+        "name": "__BGAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13534
+      },
+      "children": [
+        {
+          "name": "DialogueBGOpen",
+          "payload": {
+            "name": "DialogueBGOpen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13542
+          }
+        },
+        {
+          "name": "DislogueBGEnd",
+          "payload": {
+            "name": "DislogueBGEnd",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13550
+          }
+        },
+        {
+          "name": "DislogueBGSwitch1to2",
+          "payload": {
+            "name": "DislogueBGSwitch1to2",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13558
+          }
+        },
+        {
+          "name": "DislogueBGSwitch2to1",
+          "payload": {
+            "name": "DislogueBGSwitch2to1",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13566
+          }
+        },
+        {
+          "name": "DislogueBG_to_Black",
+          "payload": {
+            "name": "DislogueBG_to_Black",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13574
+          }
+        },
+        {
+          "name": "DislogueBG_to_Black_Grad",
+          "payload": {
+            "name": "DislogueBG_to_Black_Grad",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13582
+          }
+        },
+        {
+          "name": "DislogueBG_back_From_Black",
+          "payload": {
+            "name": "DislogueBG_back_From_Black",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13590
+          }
+        }
+      ]
+    },
+    {
+      "name": "_SwitchAnimBinder",
+      "payload": {
+        "name": "_SwitchAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13598
+      },
+      "children": [
+        {
+          "name": "DialogueSwitch",
+          "payload": {
+            "name": "DialogueSwitch",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13606
+          }
+        },
+        {
+          "name": "Dialogue Arrow",
+          "payload": {
+            "name": "Dialogue Arrow",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13614
+          }
+        }
+      ]
+    },
+    {
+      "name": "__ArrowAnimBinder",
+      "payload": {
+        "name": "__ArrowAnimBinder",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13622
+      },
+      "children": [
+        {
+          "name": "BlackScreenArrow_Show",
+          "payload": {
+            "name": "BlackScreenArrow_Show",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13630
+          }
+        },
+        {
+          "name": "BlackScreenArrow_Reset",
+          "payload": {
+            "name": "BlackScreenArrow_Reset",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13638
+          }
+        },
+        {
+          "name": "BlackScreenArrow_Loop",
+          "payload": {
+            "name": "BlackScreenArrow_Loop",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13646
+          }
+        },
+        {
+          "name": "BlackScreenArrow_Last",
+          "payload": {
+            "name": "BlackScreenArrow_Last",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "PlayableDirector",
+              "TimelineFx"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13654
+          }
+        }
+      ]
+    },
+    {
+      "name": "BG",
+      "payload": {
+        "name": "BG",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.21333337,
+          1.15823984
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "VirtualClickImage"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13662
+      }
+    },
+    {
+      "name": "BlackBG",
+      "payload": {
+        "name": "BlackBG",
+        "type": "Image",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.21333337,
+          1.15823984
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "DynamicSpriteImage",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13670
+      },
+      "children": [
+        {
+          "name": "BG2",
+          "payload": {
+            "name": "BG2",
+            "type": "Image",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.6855859
+            ],
+            "size": [
+              1.21333337,
+              0.8107564
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "DynamicSpriteImage"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13682
+          }
+        }
+      ]
+    },
+    {
+      "name": "TxtTalkCenter",
+      "payload": {
+        "name": "TxtTalkCenter",
+        "type": "TMPROUGUI",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.38542524
+        ],
+        "size": [
+          0.858666658,
+          0.04613099
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.0
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "text": "啊啊啊啊啊啊啊完蛋了，为什么前辈不在的时候出这么大的事啊！",
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "TextMeshProUGUI",
+          "TextMeshProTypewriterEffect",
+          "LayoutElement",
+          "LuaScriptMono",
+          "UIUVHole",
+          "ContentSizeFitter"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13692
+      },
+      "children": [
+        {
+          "name": "Arrow",
+          "payload": {
+            "name": "Arrow",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.899333358,
+              0.435780048
+            ],
+            "size": [
+              0.06,
+              0.05457853
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              1.0,
+              0.0
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13710
+          },
+          "children": [
+            {
+              "name": "Img_Arrow",
+              "payload": {
+                "name": "Img_Arrow",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.899333358,
+                  0.421625972
+                ],
+                "size": [
+                  0.028,
+                  0.0266828388
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13714
+              }
+            },
+            {
+              "name": "Img_ArrowUnder",
+              "payload": {
+                "name": "Img_ArrowUnder",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.899333358,
+                  0.451547146
+                ],
+                "size": [
+                  0.0346666649,
+                  0.00303214067
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13724
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Black_FrontBG",
+      "payload": {
+        "name": "Black_FrontBG",
+        "type": "Image",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.21333337,
+          1.15823984
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "DynamicSpriteImage"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13734
+      },
+      "children": [
+        {
+          "name": "Blurred screen",
+          "payload": {
+            "name": "Blurred screen",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              1.21333337,
+              1.15823984
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13744
+          },
+          "children": [
+            {
+              "name": "ShotDown",
+              "payload": {
+                "name": "ShotDown",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.21333337,
+                  1.15823984
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage",
+                  "UIMaterialVariant"
+                ],
+                "texture": "Animation_Img_Square3",
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13748
+              }
+            },
+            {
+              "name": "Line2",
+              "payload": {
+                "name": "Line2",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.21333337,
+                  1.15823984
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasGroup"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13760
+              },
+              "children": [
+                {
+                  "name": "Line",
+                  "payload": {
+                    "name": "Line",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.5,
+                      0.4855906
+                    ],
+                    "size": [
+                      1.21333337,
+                      0.176167369
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage",
+                      "UIMaterialVariant"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -13766
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shot",
+          "payload": {
+            "name": "Shot",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              1.21333337,
+              1.15823984
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13778
+          },
+          "children": [
+            {
+              "name": "SnowFlower",
+              "payload": {
+                "name": "SnowFlower",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.21333337,
+                  1.15823984
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage",
+                  "UIMaterialVariant"
+                ],
+                "texture": "Animation_Img_Line",
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13784
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DynamicBG",
+      "payload": {
+        "name": "DynamicBG",
+        "type": "Image",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.13333333,
+          1.15823984
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "DynamicSpriteImage",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13796
+      },
+      "children": [
+        {
+          "name": "DynamicBG1",
+          "payload": {
+            "name": "DynamicBG1",
+            "type": "Image",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              1.77866662,
+              1.06124926
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "DynamicSpriteImage",
+              "LuaScriptMono",
+              "UIMaterialVariant"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13808
+          },
+          "children": [
+            {
+              "name": "DynamicBG 2",
+              "payload": {
+                "name": "DynamicBG 2",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.5118443
+                ],
+                "size": [
+                  1.77866662,
+                  1.06124926
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage",
+                  "LuaScriptMono",
+                  "CanvasGroup",
+                  "UIMaterialVariant"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13822
+              }
+            },
+            {
+              "name": "Frame1",
+              "payload": {
+                "name": "Frame1",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  -0.309333265,
+                  0.5118443
+                ],
+                "size": [
+                  2.33333325,
+                  0.07277138
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13838
+              }
+            },
+            {
+              "name": "Frame2",
+              "payload": {
+                "name": "Frame2",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  1.00608325
+                ],
+                "size": [
+                  1.77866662,
+                  0.07277138
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13848
+              }
+            },
+            {
+              "name": "Frame3",
+              "payload": {
+                "name": "Frame3",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.5,
+                  0.0176053662
+                ],
+                "size": [
+                  1.77866662,
+                  0.07277138
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13858
+              }
+            },
+            {
+              "name": "Frame4",
+              "payload": {
+                "name": "Frame4",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  1.30933332,
+                  0.5118443
+                ],
+                "size": [
+                  2.33333325,
+                  0.07277138
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -13868
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VFXImg_TV_Vignette",
+      "payload": {
+        "name": "VFXImg_TV_Vignette",
+        "type": "Image",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.5333333,
+          1.30378258
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "Image",
+          "DynamicSpriteImage",
+          "UIMaterialVariant",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13878
+      },
+      "children": [
+        {
+          "name": "VFXImg_TV_Vignette1",
+          "payload": {
+            "name": "VFXImg_TV_Vignette1",
+            "type": "Image",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5118443
+            ],
+            "size": [
+              1.5333333,
+              1.30378258
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "DynamicSpriteImage",
+              "UIMaterialVariant"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13892
+          }
+        }
+      ]
+    },
+    {
+      "name": "VisibleContinue",
+      "payload": {
+        "name": "VisibleContinue",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13904
+      }
+    },
+    {
+      "name": "UIDialogue",
+      "payload": {
+        "name": "UIDialogue",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.0,
+          0.9763114
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -13910
+      },
+      "children": [
+        {
+          "name": "DialogBG",
+          "payload": {
+            "name": "DialogBG",
+            "type": "Image",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.8150394
+            ],
+            "size": [
+              1.13333333,
+              0.5518496
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              1.0
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "Image",
+              "DynamicSpriteImage"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13916
+          }
+        },
+        {
+          "name": "ItemAnchorLeft",
+          "payload": {
+            "name": "ItemAnchorLeft",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.686476648
+            ],
+            "size": [
+              0.0133333337,
+              0.00606428133
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13926
+          }
+        },
+        {
+          "name": "ItemAnchorRight",
+          "payload": {
+            "name": "ItemAnchorRight",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.686476648
+            ],
+            "size": [
+              0.0133333337,
+              0.00606428133
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13930
+          }
+        },
+        {
+          "name": "VisibleName",
+          "payload": {
+            "name": "VisibleName",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              1.28399992,
+              0.5658164
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "LuaScriptMono",
+              "LuaScriptMono"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13934
+          }
+        },
+        {
+          "name": "VisibleLeft",
+          "payload": {
+            "name": "VisibleLeft",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              1.28399992,
+              0.5658164
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "LuaScriptMono"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13942
+          }
+        },
+        {
+          "name": "VisibleRight",
+          "payload": {
+            "name": "VisibleRight",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              1.28399992,
+              0.5658164
+            ],
+            "size": [
+              0.13333334,
+              0.0606428124
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "LuaScriptMono"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13948
+          }
+        },
+        {
+          "name": "RoleGroup",
+          "payload": {
+            "name": "RoleGroup",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.757428765
+            ],
+            "size": [
+              1.0,
+              0.4851425
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasGroup"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -13954
+          },
+          "children": [
+            {
+              "name": "Left",
+              "payload": {
+                "name": "Left",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.324,
+                  0.6494845
+                ],
+                "size": [
+                  0.9533333,
+                  0.31412977
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14006
+              },
+              "children": [
+                {
+                  "name": "Img_Under",
+                  "payload": {
+                    "name": "Img_Under",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.502666652,
+                      0.8617344
+                    ],
+                    "size": [
+                      0.952,
+                      0.122498482
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14012
+                  }
+                },
+                {
+                  "name": "Img_Ninja",
+                  "payload": {
+                    "name": "Img_Ninja",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.736,
+                      0.7931474
+                    ],
+                    "size": [
+                      0.450666666,
+                      0.008489994
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14022
+                  }
+                },
+                {
+                  "name": "Root",
+                  "payload": {
+                    "name": "Root",
+                    "type": "Node",
+                    "visible": true,
+                    "pos": [
+                      0.29733336,
+                      0.6791995
+                    ],
+                    "size": [
+                      0.9546667,
+                      0.31412977
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.0
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "LuaScriptMono"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14032
+                  },
+                  "children": [
+                    {
+                      "name": "UIPortraits_Npc_Guider(Clone)",
+                      "payload": {
+                        "name": "UIPortraits_Npc_Guider(Clone)",
+                        "type": "Node",
+                        "visible": true,
+                        "pos": [
+                          0.29733336,
+                          0.68101877
+                        ],
+                        "size": [
+                          0.952,
+                          0.3104912
+                        ],
+                        "scale": [
+                          1.0,
+                          1.0
+                        ],
+                        "anchorPoint": [
+                          0.5,
+                          1.0
+                        ],
+                        "zOrders": {
+                          "global": 0.0,
+                          "local": -1.3
+                        },
+                        "clickable": false,
+                        "components": [
+                          "RectTransform",
+                          "LuaScriptMono"
+                        ],
+                        "_ilayer": 5,
+                        "layer": "UI",
+                        "_instanceId": -15818
+                      },
+                      "children": [
+                        {
+                          "name": "Portraits_Normal",
+                          "payload": {
+                            "name": "Portraits_Normal",
+                            "type": "Image",
+                            "visible": true,
+                            "pos": [
+                              0.29733336,
+                              0.6823384
+                            ],
+                            "size": [
+                              0.952,
+                              0.3104912
+                            ],
+                            "scale": [
+                              1.0,
+                              1.0
+                            ],
+                            "anchorPoint": [
+                              0.49999997,
+                              1.0
+                            ],
+                            "zOrders": {
+                              "global": 0.0,
+                              "local": -1.3
+                            },
+                            "clickable": false,
+                            "components": [
+                              "RectTransform",
+                              "CanvasRenderer",
+                              "Image",
+                              "DynamicSpriteImage",
+                              "LuaScriptMono",
+                              "LuaScriptMono",
+                              "Animation"
+                            ],
+                            "_ilayer": 5,
+                            "layer": "UI",
+                            "_instanceId": -15824
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Dialog",
+          "payload": {
+            "name": "Dialog",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.8616738
+            ],
+            "size": [
+              1.0,
+              0.128562763
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "CanvasGroup",
+              "UIShake",
+              "LuaScriptMono"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -14052
+          },
+          "children": [
+            {
+              "name": "BG",
+              "payload": {
+                "name": "BG",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.504,
+                  0.8631898
+                ],
+                "size": [
+                  0.9533333,
+                  0.132807761
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14062
+              },
+              "children": [
+                {
+                  "name": "Img_Corner",
+                  "payload": {
+                    "name": "Img_Corner",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.723333359,
+                      0.876834452
+                    ],
+                    "size": [
+                      0.470666677,
+                      0.0776228
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14072
+                  }
+                },
+                {
+                  "name": "Img_Corner (1)",
+                  "payload": {
+                    "name": "Img_Corner (1)",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.275333345,
+                      0.8386295
+                    ],
+                    "size": [
+                      0.470666677,
+                      0.0776228
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14082
+                  }
+                }
+              ]
+            },
+            {
+              "name": "NameLeft",
+              "payload": {
+                "name": "NameLeft",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.230666667,
+                  0.80952096
+                ],
+                "size": [
+                  0.381333321,
+                  0.0194057
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14150
+              },
+              "children": [
+                {
+                  "name": "BG",
+                  "payload": {
+                    "name": "BG",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.23133336,
+                      0.80952096
+                    ],
+                    "size": [
+                      0.382666677,
+                      0.0194057
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.0,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage",
+                      "RectMask2D"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14154
+                  },
+                  "children": [
+                    {
+                      "name": "Img_Logo",
+                      "payload": {
+                        "name": "Img_Logo",
+                        "type": "Image",
+                        "visible": true,
+                        "pos": [
+                          0.3146667,
+                          0.8069739
+                        ],
+                        "size": [
+                          0.142666668,
+                          0.0648878142
+                        ],
+                        "scale": [
+                          1.0,
+                          1.0
+                        ],
+                        "anchorPoint": [
+                          0.5,
+                          0.5
+                        ],
+                        "zOrders": {
+                          "global": 0.0,
+                          "local": -1.3
+                        },
+                        "clickable": false,
+                        "components": [
+                          "RectTransform",
+                          "CanvasRenderer",
+                          "Image",
+                          "DynamicSpriteImage"
+                        ],
+                        "_ilayer": 5,
+                        "layer": "UI",
+                        "_instanceId": -14166
+                      }
+                    }
+                  ]
+                },
+                {
+                  "name": "TxtName",
+                  "payload": {
+                    "name": "TxtName",
+                    "type": "TMPROUGUI",
+                    "visible": true,
+                    "pos": [
+                      0.215333372,
+                      0.808308065
+                    ],
+                    "size": [
+                      0.270666659,
+                      0.02304427
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.0,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "text": "艾丽丝",
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "TextMeshProUGUI",
+                      "LuaScriptMono",
+                      "ContentSizeFitterToTarget"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14186
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Txt_Talk",
+              "payload": {
+                "name": "Txt_Talk",
+                "type": "TMPROUGUI",
+                "visible": true,
+                "pos": [
+                  0.490666658,
+                  0.8691935
+                ],
+                "size": [
+                  0.822666645,
+                  0.0842935145
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "text": "啊啊啊啊啊啊啊完蛋了，为什么前辈不在的时候出这么大的事啊！",
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "TextMeshProUGUI",
+                  "TextMeshProTypewriterEffect",
+                  "LayoutElement",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14204
+              }
+            },
+            {
+              "name": "Arrow",
+              "payload": {
+                "name": "Arrow",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.919333339,
+                  0.888963044
+                ],
+                "size": [
+                  0.028,
+                  0.0266828388
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  1.0,
+                  1.0
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "UIMultiSpriteImage",
+                  "DynamicSpriteImage",
+                  "UIMaterialVariant",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14218
+              },
+              "children": [
+                {
+                  "name": "Transf",
+                  "payload": {
+                    "name": "Transf",
+                    "type": "Node",
+                    "visible": true,
+                    "pos": [
+                      0.9152415,
+                      0.8931836
+                    ],
+                    "size": [
+                      0.101517066,
+                      0.0383337177
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "UIRectTransformProvider"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14232
+                  }
+                }
+              ]
+            },
+            {
+              "name": "ArrowUnder",
+              "payload": {
+                "name": "ArrowUnder",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.919333339,
+                  0.9071559
+                ],
+                "size": [
+                  0.0346666649,
+                  0.00303214067
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14238
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ButtonContinue",
+      "payload": {
+        "name": "ButtonContinue",
+        "type": "Button",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.0,
+          0.9763114
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          1.0
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": true,
+        "components": [
+          "RectTransform",
+          "CanvasRenderer",
+          "VirtualClickImage",
+          "Button",
+          "ButtonPressEffect_None"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14250
+      }
+    },
+    {
+      "name": "OptionsLong",
+      "payload": {
+        "name": "OptionsLong",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.603414953
+        ],
+        "size": [
+          1.0,
+          0.128562763
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14262
+      },
+      "children": [
+        {
+          "name": "ButtonContainer",
+          "payload": {
+            "name": "ButtonContainer",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.512666643,
+              0.407538652
+            ],
+            "size": [
+              0.876,
+              0.445118248
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "VerticalLayoutGroup"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -14276
+          }
+        }
+      ]
+    },
+    {
+      "name": "OptionsCenter",
+      "payload": {
+        "name": "OptionsCenter",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          1.0,
+          0.9763114
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "VerticalLayoutGroup",
+          "LuaScriptMono",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14456
+      }
+    },
+    {
+      "name": "Buttons",
+      "payload": {
+        "name": "Buttons",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.900666654,
+          0.1571028
+        ],
+        "size": [
+          0.198666662,
+          0.249241963
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          1.0,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "VerticalLayoutGroup",
+          "CanvasGroup"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14626
+      },
+      "children": [
+        {
+          "name": "ButtonSkipAll",
+          "payload": {
+            "name": "ButtonSkipAll",
+            "type": "Button",
+            "visible": true,
+            "pos": [
+              0.9006666,
+              0.07705428
+            ],
+            "size": [
+              0.109333336,
+              0.04972711
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": true,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "VirtualClickImage",
+              "Button",
+              "LuaScriptMono",
+              "ButtonPressEffect_Scale"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -14634
+          },
+          "children": [
+            {
+              "name": "Img_Btn",
+              "payload": {
+                "name": "Img_Btn",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.07705428
+                ],
+                "size": [
+                  0.109333336,
+                  0.04972711
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14648
+              }
+            },
+            {
+              "name": "Txt",
+              "payload": {
+                "name": "Txt",
+                "type": "TMPROUGUI",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.111317463
+                ],
+                "size": [
+                  0.109333336,
+                  0.0187992714
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.0
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "text": "跳过",
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "TextMeshProUGUI",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14658
+              }
+            }
+          ]
+        },
+        {
+          "name": "ToggleAutoplay",
+          "payload": {
+            "name": "ToggleAutoplay",
+            "type": "Toggle",
+            "visible": true,
+            "pos": [
+              0.9006666,
+              0.1571028
+            ],
+            "size": [
+              0.109333336,
+              0.04972711
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform",
+              "Toggle",
+              "LuaScriptMono",
+              "ButtonPressEffect_Scale"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -14668
+          },
+          "children": [
+            {
+              "name": "Background",
+              "payload": {
+                "name": "Background",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.1571028
+                ],
+                "size": [
+                  0.109333336,
+                  0.04972711
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14678
+              },
+              "children": [
+                {
+                  "name": "Checkmark",
+                  "payload": {
+                    "name": "Checkmark",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.9006666,
+                      0.1571028
+                    ],
+                    "size": [
+                      0.109333336,
+                      0.04972711
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": -1.3
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image",
+                      "DynamicSpriteImage"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -14688
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Txt",
+              "payload": {
+                "name": "Txt",
+                "type": "TMPROUGUI",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.191365913
+                ],
+                "size": [
+                  0.109333336,
+                  0.0187992714
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.0
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "text": "自动",
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "TextMeshProUGUI",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14698
+              }
+            }
+          ]
+        },
+        {
+          "name": "ButtonLog",
+          "payload": {
+            "name": "ButtonLog",
+            "type": "Button",
+            "visible": true,
+            "pos": [
+              0.9006666,
+              0.237151235
+            ],
+            "size": [
+              0.109333336,
+              0.04972711
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": -1.3
+            },
+            "clickable": true,
+            "components": [
+              "RectTransform",
+              "CanvasRenderer",
+              "VirtualClickImage",
+              "Button",
+              "LuaScriptMono",
+              "ButtonPressEffect_Scale"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -14708
+          },
+          "children": [
+            {
+              "name": "Img_Btn",
+              "payload": {
+                "name": "Img_Btn",
+                "type": "Image",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.237151235
+                ],
+                "size": [
+                  0.109333336,
+                  0.04972711
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "Image",
+                  "DynamicSpriteImage"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14722
+              }
+            },
+            {
+              "name": "Txt",
+              "payload": {
+                "name": "Txt",
+                "type": "TMPROUGUI",
+                "visible": true,
+                "pos": [
+                  0.9006666,
+                  0.2714145
+                ],
+                "size": [
+                  0.109333336,
+                  0.0187992714
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.0
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": -1.3
+                },
+                "clickable": false,
+                "text": "记录",
+                "components": [
+                  "RectTransform",
+                  "CanvasRenderer",
+                  "TextMeshProUGUI",
+                  "LuaScriptMono"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -14732
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "QTEItem",
+      "payload": {
+        "name": "QTEItem",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.6986667,
+          0.6228017
+        ],
+        "size": [
+          0.389333338,
+          0.107944205
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14812
+      }
+    },
+    {
+      "name": "BlackScreen",
+      "payload": {
+        "name": "BlackScreen",
+        "type": "GameObject",
+        "visible": true,
+        "pos": [
+          0.0,
+          0.0
+        ],
+        "size": [
+          0.0,
+          0.0
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -2.84920168
+        },
+        "clickable": false,
+        "components": [
+          "Transform"
+        ],
+        "_ilayer": 0,
+        "layer": "Default",
+        "_instanceId": -14816
+      }
+    },
+    {
+      "name": "VisibleSkipButton",
+      "payload": {
+        "name": "VisibleSkipButton",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5118443
+        ],
+        "size": [
+          0.13333334,
+          0.0606428124
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": -1.3
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -14828
+      }
+    }
+  ]
+}

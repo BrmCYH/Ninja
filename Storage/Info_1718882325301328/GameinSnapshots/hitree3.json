@@ -1,0 +1,343 @@
+{
+  "name": "[Graphy]",
+  "payload": {
+    "name": "[Graphy]",
+    "type": "Node",
+    "visible": true,
+    "pos": [
+      0.5,
+      0.5
+    ],
+    "size": [
+      1.0,
+      0.99999994
+    ],
+    "scale": [
+      1.0,
+      1.0
+    ],
+    "anchorPoint": [
+      0.5,
+      0.5
+    ],
+    "zOrders": {
+      "global": 0.0,
+      "local": 0.0
+    },
+    "clickable": false,
+    "components": [
+      "RectTransform",
+      "Canvas",
+      "CanvasScaler",
+      "GraphyManager",
+      "GraphyDebugger",
+      "UnityMacroControl"
+    ],
+    "_ilayer": 5,
+    "layer": "UI",
+    "_instanceId": -3680
+  },
+  "children": [
+    {
+      "name": "NotchRoot",
+      "payload": {
+        "name": "NotchRoot",
+        "type": "Node",
+        "visible": true,
+        "pos": [
+          0.5,
+          0.5
+        ],
+        "size": [
+          1.0,
+          0.99999994
+        ],
+        "scale": [
+          1.0,
+          1.0
+        ],
+        "anchorPoint": [
+          0.5,
+          0.5
+        ],
+        "zOrders": {
+          "global": 0.0,
+          "local": 0.0
+        },
+        "clickable": false,
+        "components": [
+          "RectTransform",
+          "LuaScriptMono"
+        ],
+        "_ilayer": 5,
+        "layer": "UI",
+        "_instanceId": -3694
+      },
+      "children": [
+        {
+          "name": "NotchTop",
+          "payload": {
+            "name": "NotchTop",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.009147193
+            ],
+            "size": [
+              1.0,
+              0.0182943866
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.0
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": 0.0
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -3700
+          }
+        },
+        {
+          "name": "NotchUI",
+          "payload": {
+            "name": "NotchUI",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              0.5091472
+            ],
+            "size": [
+              1.0,
+              0.9817056
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              0.5
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": 0.0
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -3704
+          },
+          "children": [
+            {
+              "name": "FPS ---------------------------",
+              "payload": {
+                "name": "FPS ---------------------------",
+                "type": "Node",
+                "visible": true,
+                "pos": [
+                  0.8400852,
+                  0.9595825
+                ],
+                "size": [
+                  0.3198296,
+                  0.08083484
+                ],
+                "scale": [
+                  1.0,
+                  1.0
+                ],
+                "anchorPoint": [
+                  0.5,
+                  0.5
+                ],
+                "zOrders": {
+                  "global": 0.0,
+                  "local": 0.0
+                },
+                "clickable": false,
+                "components": [
+                  "RectTransform",
+                  "G_FpsMonitor",
+                  "G_FpsText",
+                  "G_FpsGraph",
+                  "G_FpsManager"
+                ],
+                "_ilayer": 5,
+                "layer": "UI",
+                "_instanceId": -3708
+              },
+              "children": [
+                {
+                  "name": "BG_Image_BASIC",
+                  "payload": {
+                    "name": "BG_Image_BASIC",
+                    "type": "Image",
+                    "visible": true,
+                    "pos": [
+                      0.9328625,
+                      0.9287192
+                    ],
+                    "size": [
+                      0.134686783,
+                      0.0199042931
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": 0.0
+                    },
+                    "clickable": false,
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Image"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -3736
+                  }
+                },
+                {
+                  "name": "fps_text",
+                  "payload": {
+                    "name": "fps_text",
+                    "type": "TMPROUGUI",
+                    "visible": true,
+                    "pos": [
+                      0.995675147,
+                      0.933683634
+                    ],
+                    "size": [
+                      0.113989443,
+                      0.028662188
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": 0.0
+                    },
+                    "clickable": false,
+                    "text": "",
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Shadow",
+                      "TextMeshProUGUI"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -3760
+                  }
+                },
+                {
+                  "name": "fps_text_value",
+                  "payload": {
+                    "name": "fps_text_value",
+                    "type": "TMPROUGUI",
+                    "visible": true,
+                    "pos": [
+                      0.7230065,
+                      0.996908963
+                    ],
+                    "size": [
+                      0.102044769,
+                      0.028662188
+                    ],
+                    "scale": [
+                      1.0,
+                      1.0
+                    ],
+                    "anchorPoint": [
+                      0.5,
+                      0.5
+                    ],
+                    "zOrders": {
+                      "global": 0.0,
+                      "local": 0.0
+                    },
+                    "clickable": false,
+                    "text": "52",
+                    "components": [
+                      "RectTransform",
+                      "CanvasRenderer",
+                      "Shadow",
+                      "TextMeshProUGUI"
+                    ],
+                    "_ilayer": 5,
+                    "layer": "UI",
+                    "_instanceId": -3770
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "NotchBottom",
+          "payload": {
+            "name": "NotchBottom",
+            "type": "Node",
+            "visible": true,
+            "pos": [
+              0.5,
+              1.0
+            ],
+            "size": [
+              1.0,
+              0.0
+            ],
+            "scale": [
+              1.0,
+              1.0
+            ],
+            "anchorPoint": [
+              0.5,
+              1.0
+            ],
+            "zOrders": {
+              "global": 0.0,
+              "local": 0.0
+            },
+            "clickable": false,
+            "components": [
+              "RectTransform"
+            ],
+            "_ilayer": 5,
+            "layer": "UI",
+            "_instanceId": -4176
+          }
+        }
+      ]
+    }
+  ]
+}
